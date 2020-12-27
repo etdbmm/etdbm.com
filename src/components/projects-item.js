@@ -2,7 +2,7 @@ import React from 'react'
 import BackgroundImage from 'gatsby-background-image'
 
 const ProjectsItem = ({ data }) => (
-  <div className="container grid grid-cols-2 lg:grid-cols-4 gap-5">
+  <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
     {data.map(({ node }, i) => (
       <BackgroundImage
         fluid={node.frontmatter.image.childImageSharp.fluid}
