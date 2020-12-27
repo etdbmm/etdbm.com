@@ -1,6 +1,6 @@
 ---
 key: project-item
-title: Lorem ipsum
+title: Lorem ipsum 10
 date: 2020-07-31
 client: Lorem ipsum
 function: Lorem ipsum
