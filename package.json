@@ -1,0 +1,32 @@
+{
+  "name": "eti",
+  "author": "Mars Collective <hi@marscollective.co>",
+  "version": "0.0.1",
+  "license": "0BSD",
+  "private": true,
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "stage": "yarn build && netlify deploy",
+    "deploy": "yarn stage -p",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,mdx,yaml,yml}\""
+  },
+  "dependencies": {
+    "@marscollective/gatsby-theme-core": "^0.2.6",
+    "gatsby": "^2.29.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  }
+}
