@@ -28,5 +28,11 @@ module.exports = {
         pink: '#FF9F9F'
       }
     }
+  },
+  variants: {
+    extend: {
+      gridColumn: ['first'],
+      gridRow: ['first']
+    }
   }
 }
