@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-default text-black;
+  }
+  h1,
+  h2 {
+    @apply text-2xl;
+  }
+}
+
+@layer components {
+  .container {
+    max-width: 1044px;
+  }
+}
