@@ -4,7 +4,10 @@ import Img from 'gatsby-image'
 import Button from './button'
 
 const Profile = ({ image, title, subtitle, text, tools }) => (
-  <div className="container grid gap-7 items-center py-10 md:py-20 lg:grid-cols-2">
+  <div
+    className="container grid gap-7 items-center py-10 md:py-20 lg:grid-cols-2"
+    id="sobre"
+  >
     <Img fluid={image.childImageSharp.fluid} className="max-w-md" />
     <div className="space-y-5 text-gray lg:px-8">
       <h1>{title}</h1>

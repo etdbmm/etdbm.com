@@ -7,7 +7,7 @@ const Tab = ({ children }) => {
   const { isActive, onClick } = useTabState()
   return (
     <button
-      className={`text-white font-bold focus:outline-none focus:border-none ${
+      className={`text-white font-bold focus:outline-none focus:border-none z-10 ${
         isActive && `text-pink`
       }`}
       onClick={onClick}
@@ -28,10 +28,9 @@ const Projects = ({
   packingDesignData,
   uxData
 }) => (
-  // remover bg
-  <div className="container bg-blue">
+  <div className="container pt-20" id="projetos">
     <Tabs>
-      <div className="flex justify-around py-10">
+      <div className="flex justify-around py-4">
         <div className="flex flex-col md:flex-row justify-center md:justify-around space-y-2 md:space-y-0 md:w-full">
           <Tab>branding</Tab>
           <Tab>ux</Tab>
