@@ -9,10 +9,8 @@ const favicon = metadata.favicon ? `content/metadata/${metadata.favicon}` : ``
 module.exports = {
   siteMetadata: {
     title: metadata.title,
-    descriptions: metadata.descriptions,
-    email: metadata.email,
-    siteUrl: metadata.siteUrl,
-    social: metadata.social
+    description: metadata.description,
+    siteUrl: metadata.siteUrl
   },
   plugins: [
     {
