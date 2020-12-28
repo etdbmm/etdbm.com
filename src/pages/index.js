@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import Portfolio from '../components/portfolio'
 import Profile from '../components/profile'
 
@@ -12,6 +13,7 @@ import useProfile from '../hooks/use-profile'
 
 const IndexPage = () => (
   <Layout>
+    <SEO />
     <Portfolio
       brandingData={useBranding()}
       graphicDesignData={useGraphicDesign()}
