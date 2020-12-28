@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import Projects from '../components/projects'
+import Portfolio from '../components/portfolio'
 import Profile from '../components/profile'
 
 import useBranding from '../hooks/use-branding'
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div className="container">
       <h1>Hello World</h1>
     </div>
-    <Projects
+    <Portfolio
       brandingData={useBranding()}
       graphicDesignData={useGraphicDesign()}
       packingDesignData={usePackingDesign()}

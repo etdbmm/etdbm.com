@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tabs, useTabState, usePanelState } from '@bumaga/tabs'
 
-import ProjectsItem from './projects-item'
+import PortfolioCard from './portfolio-card'
 
 const Tab = ({ children }) => {
   const { isActive, onClick } = useTabState()
@@ -43,16 +43,16 @@ const Projects = ({
       </div>
 
       <Panel>
-        <ProjectsItem data={brandingData} />
+        <PortfolioCard data={brandingData} />
       </Panel>
       <Panel>
-        <ProjectsItem data={graphicDesignData} />
+        <PortfolioCard data={graphicDesignData} />
       </Panel>
       <Panel>
-        <ProjectsItem data={packingDesignData} />
+        <PortfolioCard data={packingDesignData} />
       </Panel>
       <Panel>
-        <ProjectsItem data={uxData} />
+        <PortfolioCard data={uxData} />
       </Panel>
     </Tabs>
   </div>
