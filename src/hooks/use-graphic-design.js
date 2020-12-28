@@ -17,6 +17,9 @@ export default function useGraphicDesign() {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               image {
                 childImageSharp {

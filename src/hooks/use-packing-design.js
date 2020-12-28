@@ -17,6 +17,9 @@ export default function usePackingDesign() {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               image {
                 childImageSharp {

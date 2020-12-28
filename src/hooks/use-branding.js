@@ -14,6 +14,9 @@ export default function useBranding() {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               image {
                 childImageSharp {

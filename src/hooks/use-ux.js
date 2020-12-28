@@ -14,6 +14,9 @@ export default function useUX() {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               image {
                 childImageSharp {
