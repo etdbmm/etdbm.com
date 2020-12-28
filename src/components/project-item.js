@@ -2,15 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 
-const PortfolioItem = ({
-  children,
-  client,
-  date,
-  image,
-  text,
-  title,
-  work
-}) => (
+const ProjectItem = ({ children, client, date, image, text, title, work }) => (
   <div className="container my-11 pt-12 space-y-6">
     <div className="grid gap-8 lg:grid-cols-2">
       <Img fluid={image.childImageSharp.fluid} className="h-64 lg:h-auto" />
@@ -39,4 +31,4 @@ const PortfolioItem = ({
   </div>
 )
 
-export default PortfolioItem
+export default ProjectItem

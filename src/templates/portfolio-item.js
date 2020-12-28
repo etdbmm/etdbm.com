@@ -4,17 +4,17 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import PortfolioItem from '../components/portfolio-item'
+import ProjectItem from '../components/project-item'
 
-const PortfolioItemTemplate = ({ data }) => {
+const ProjectItemTemplate = ({ data }) => {
   const {
-    PortfolioItem: { frontmatter }
+    ProjectItem: { frontmatter }
   } = data
 
   return (
     <Layout positive>
       <SEO title={frontmatter.title} description={frontmatter.text} />
-      <PortfolioItem
+      <ProjectItem
         client={frontmatter.client}
         date={frontmatter.date}
         image={frontmatter.image}
@@ -25,16 +25,16 @@ const PortfolioItemTemplate = ({ data }) => {
         {frontmatter.content.map((item, i) => (
           <Img fluid={item.childImageSharp.fluid} key={i} />
         ))}
-      </PortfolioItem>
+      </ProjectItem>
     </Layout>
   )
 }
 
-export default PortfolioItemTemplate
+export default ProjectItemTemplate
 
 export const query = graphql`
   query($slug: String!) {
-    PortfolioItem: markdownRemark(fields: { slug: { eq: $slug } }) {
+    ProjectItem: markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         client
         content {
