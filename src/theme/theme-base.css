@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-default text-black;
+    @apply font-default text-black overflow-x-hidden;
   }
   h1,
   h2 {

@@ -11,7 +11,7 @@ const PortfolioItemTemplate = ({ data }) => {
   } = data
 
   return (
-    <Layout>
+    <Layout positive>
       <PortfolioItem
         client={frontmatter.client}
         date={frontmatter.date}
