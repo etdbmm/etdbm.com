@@ -11,7 +11,7 @@ const PortfolioItem = ({
   title,
   work
 }) => (
-  <div className="container my-11 space-y-6">
+  <div className="container my-11 pt-12 space-y-6">
     <div className="grid gap-8 lg:grid-cols-2">
       <Img fluid={image.childImageSharp.fluid} className="h-64 lg:h-auto" />
       <div className="lg:px-8">

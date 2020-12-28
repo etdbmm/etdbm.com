@@ -12,9 +12,6 @@ import useProfile from '../hooks/use-profile'
 
 const IndexPage = () => (
   <Layout>
-    <div className="container">
-      <h1>Hello World</h1>
-    </div>
     <Portfolio
       brandingData={useBranding()}
       graphicDesignData={useGraphicDesign()}

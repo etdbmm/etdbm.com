@@ -11,8 +11,13 @@ module.exports = {
       },
       backgroundColor: {
         blue: '#0B0043',
+        'cyan-blue': '#00A2A7',
         pink: '#FF9F9F',
         'pink-hover': '#D05A57'
+      },
+      backgroundImage: {
+        'header-bg-mobile': "url('../assets/header-bg-mobile.svg')",
+        'header-bg': "url('../assets/header-bg.svg')"
       },
       borderColor: {
         blue: '#0B0043',
@@ -23,6 +28,7 @@ module.exports = {
         default: 'Quicksand, sans-serif'
       },
       textColor: {
+        blue: '#0B0043',
         'cyan-blue': '#00A2A7',
         gray: '#454545',
         pink: '#FF9F9F'

@@ -4,7 +4,7 @@ import { FaBehance as Behance, FaInstagram as Instagram } from 'react-icons/fa'
 import ContactForm from './contact-form'
 
 const Footer = () => (
-  <footer className="bg-blue text-white pt-12">
+  <footer className="bg-blue text-white pt-12" id="contato">
     <div className="container">
       <ContactForm />
       <div className="py-8 md:p-10 space-y-5">

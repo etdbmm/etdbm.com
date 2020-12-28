@@ -28,6 +28,7 @@ module.exports = {
           require(`postcss-nested`)
         ]
       }
-    }
+    },
+    `gatsby-plugin-anchor-links`
   ]
 }
