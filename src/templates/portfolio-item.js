@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import PortfolioItem from '../components/portfolio-item'
 
 const PortfolioItemTemplate = ({ data }) => {
@@ -12,6 +13,7 @@ const PortfolioItemTemplate = ({ data }) => {
 
   return (
     <Layout positive>
+      <SEO title={frontmatter.title} description={frontmatter.text} />
       <PortfolioItem
         client={frontmatter.client}
         date={frontmatter.date}
