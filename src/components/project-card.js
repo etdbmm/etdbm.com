@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 
-const PortfolioCard = ({ data }) => (
+const ProjectCard = ({ data }) => (
   <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
     {data.map(({ node }, i) => (
       <Link to={node.fields.slug} key={i}>
@@ -23,4 +23,4 @@ const PortfolioCard = ({ data }) => (
   </div>
 )
 
-export default PortfolioCard
+export default ProjectCard

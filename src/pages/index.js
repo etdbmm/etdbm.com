@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Portfolio from '../components/portfolio'
+import ProjectList from '../components/project-list'
 import Profile from '../components/profile'
 
 import useBranding from '../hooks/use-branding'
@@ -14,7 +14,7 @@ import useProfile from '../hooks/use-profile'
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Portfolio
+    <ProjectList
       brandingData={useBranding()}
       graphicDesignData={useGraphicDesign()}
       packingDesignData={usePackingDesign()}
