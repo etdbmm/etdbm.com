@@ -15,16 +15,6 @@ export default function useUX() {
         edges {
           node {
             frontmatter {
-              client
-              content {
-                childImageSharp {
-                  fluid(maxWidth: 1040, quality: 100) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
-              date
-              function
               image {
                 childImageSharp {
                   fluid(maxWidth: 480, quality: 100) {
@@ -33,8 +23,8 @@ export default function useUX() {
                 }
               }
               role
-              text
               title
+              work
             }
           }
         }

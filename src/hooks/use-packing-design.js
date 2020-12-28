@@ -18,16 +18,6 @@ export default function usePackingDesign() {
         edges {
           node {
             frontmatter {
-              client
-              content {
-                childImageSharp {
-                  fluid(maxWidth: 1040, quality: 100) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
-              date
-              function
               image {
                 childImageSharp {
                   fluid(maxWidth: 480, quality: 100) {
@@ -36,8 +26,8 @@ export default function usePackingDesign() {
                 }
               }
               role
-              text
               title
+              work
             }
           }
         }
