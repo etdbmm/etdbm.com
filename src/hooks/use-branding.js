@@ -14,17 +14,10 @@ export default function useBranding() {
       ) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
-              client
-              content {
-                childImageSharp {
-                  fluid(maxWidth: 1040, quality: 100) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
-              date
-              function
               image {
                 childImageSharp {
                   fluid(maxWidth: 480, quality: 100) {
@@ -33,8 +26,8 @@ export default function useBranding() {
                 }
               }
               role
-              text
               title
+              work
             }
           }
         }
