@@ -10,7 +10,7 @@ export default function useProfile() {
           image {
             childImageSharp {
               fluid(maxWidth: 470, quality: 100) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
               }
             }
           }
