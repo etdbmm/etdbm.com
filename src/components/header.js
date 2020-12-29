@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
-import { FaBehance as Behance, FaInstagram as Instagram } from 'react-icons/fa'
 import { HiOutlineMenu as Menu } from 'react-icons/hi'
 
 import Logo from '../assets/logo'
+import Social from './social'
 
 const Header = ({ positive }) => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -23,22 +23,7 @@ const Header = ({ positive }) => {
           <Link to="/">
             <Logo />
           </Link>
-          <a
-            href="https://instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium"
-          >
-            <Instagram size={30} />
-          </a>
-          <a
-            href="https://behance.net/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium"
-          >
-            <Behance size={30} />
-          </a>
+          <Social />
         </div>
 
         <nav className="relative text-right z-20">
@@ -54,7 +39,9 @@ const Header = ({ positive }) => {
             }`}
           >
             <li>
-              <AnchorLink to="/#projetos">projetos</AnchorLink>
+              <AnchorLink to="/#projetos" className="active">
+                projetos
+              </AnchorLink>
             </li>
             <li>
               <AnchorLink to="/#sobre">sobre</AnchorLink>
