@@ -17,7 +17,7 @@ const Image = ({ alt, className, src }) =>
 
 const ProjectItem = ({ children, client, date, image, text, title, work }) => (
   <div className="container my-11 pt-10 md:pt-20 space-y-6">
-    <div className="grid gap-8 lg:grid-cols-2" data-sal="fade">
+    <div className="grid gap-8 lg:grid-cols-2">
       <Image src={image} className="h-64 lg:h-auto" alt={title} />
       <div className="lg:px-8">
         <h1 className="text-cyan-blue font-bold">{title}</h1>
@@ -36,7 +36,7 @@ const ProjectItem = ({ children, client, date, image, text, title, work }) => (
       </div>
     </div>
     <div>{children}</div>
-    <div data-sal="fade">
+    <div>
       <Link to="/" className="text-cyan-blue text-2xl font-bold">
         {'<'} voltar
       </Link>

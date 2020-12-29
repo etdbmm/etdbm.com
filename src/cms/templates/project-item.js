@@ -9,7 +9,7 @@ const ProjectItemPreview = ({ entry, getAsset }) => {
   return (
     <ProjectItem
       client={client}
-      date={date}
+      date={date.substring(0, 4)}
       image={getAsset(image)}
       text={text}
       title={title}
