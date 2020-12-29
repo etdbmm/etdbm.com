@@ -30,7 +30,11 @@ const ProjectList = ({
 }) => (
   <div className="container pt-16 md:pt-24" id="projetos">
     <Tabs>
-      <div className="flex justify-around py-4">
+      <div
+        className="flex justify-around py-4"
+        data-sal="slide-up"
+        data-sal-delay="600"
+      >
         <div className="flex flex-col md:flex-row justify-center md:justify-around space-y-2 md:space-y-0 md:w-full">
           <Tab>branding</Tab>
           <Tab>ux</Tab>
@@ -40,19 +44,20 @@ const ProjectList = ({
           <Tab>embalagens</Tab>
         </div>
       </div>
-
-      <Panel>
-        <ProjectCards data={brandingData} />
-      </Panel>
-      <Panel>
-        <ProjectCards data={graphicDesignData} />
-      </Panel>
-      <Panel>
-        <ProjectCards data={packingDesignData} />
-      </Panel>
-      <Panel>
-        <ProjectCards data={uxData} />
-      </Panel>
+      <div data-sal="slide-up" data-sal-delay="900">
+        <Panel>
+          <ProjectCards data={brandingData} />
+        </Panel>
+        <Panel>
+          <ProjectCards data={graphicDesignData} />
+        </Panel>
+        <Panel>
+          <ProjectCards data={packingDesignData} />
+        </Panel>
+        <Panel>
+          <ProjectCards data={uxData} />
+        </Panel>
+      </div>
     </Tabs>
   </div>
 )
