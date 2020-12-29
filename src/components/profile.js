@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 import Button from './button'
 
@@ -14,7 +15,9 @@ const Profile = ({ image, title, subtitle, text, tools }) => (
       <h2 className="text-pink">{subtitle}</h2>
       <p className="font-bold">{text}</p>
       <div className="text-center md:text-left">
-        <Button label="Entre em contato" primary />
+        <AnchorLink to="/#contato">
+          <Button label="Entre em contato" primary />
+        </AnchorLink>
       </div>
       <h2 className="text-pink">Ferramentas</h2>
       <ul className="grid grid-cols-5 gap-5">
