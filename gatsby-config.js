@@ -30,6 +30,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-anchor-links`,
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
