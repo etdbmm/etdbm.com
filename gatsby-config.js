@@ -10,6 +10,8 @@ module.exports = {
   siteMetadata: {
     title: metadata.title,
     description: metadata.description,
+    behance: metadata.behance,
+    instagram: metadata.instagram,
     siteUrl: metadata.siteUrl
   },
   plugins: [
