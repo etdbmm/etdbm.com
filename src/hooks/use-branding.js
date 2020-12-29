@@ -21,7 +21,7 @@ export default function useBranding() {
               image {
                 childImageSharp {
                   fluid(maxWidth: 480, quality: 100) {
-                    ...GatsbyImageSharpFluid_withWebp
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
                   }
                 }
               }
