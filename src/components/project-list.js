@@ -44,20 +44,18 @@ const ProjectList = ({
           <Tab>embalagens</Tab>
         </div>
       </div>
-      <div data-sal="slide-up" data-sal-delay="900">
-        <Panel>
-          <ProjectCards data={brandingData} />
-        </Panel>
-        <Panel>
-          <ProjectCards data={uxData} />
-        </Panel>
-        <Panel>
-          <ProjectCards data={graphicDesignData} />
-        </Panel>
-        <Panel>
-          <ProjectCards data={packingDesignData} />
-        </Panel>
-      </div>
+      <Panel>
+        <ProjectCards data={brandingData} />
+      </Panel>
+      <Panel>
+        <ProjectCards data={uxData} />
+      </Panel>
+      <Panel>
+        <ProjectCards data={graphicDesignData} />
+      </Panel>
+      <Panel>
+        <ProjectCards data={packingDesignData} />
+      </Panel>
     </Tabs>
   </div>
 )
