@@ -19,9 +19,6 @@
   }
   .active {
     @apply relative;
-    &:hover {
-      @apply text-white;
-    }
     &:after {
       @apply absolute border-b-4 border-pink transform -translate-x-1/2 left-1/2;
       content: '';
