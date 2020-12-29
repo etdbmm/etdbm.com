@@ -13,11 +13,14 @@ const Header = ({ positive }) => {
       className={`absolute inset-0 bg-header-bg-mobile bg-top bg-no-repeat ${
         positive ? 'md:bg-none' : 'md:bg-header-bg'
       }`}
+      data-sal="fade"
     >
       <div
         className={`container flex justify-between pt-5 md:pt-10 text-white ${
           positive && 'md:text-blue'
         }`}
+        data-sal="slide-up"
+        data-sal-delay="300"
       >
         <div className="flex space-x-8">
           <Link to="/">
