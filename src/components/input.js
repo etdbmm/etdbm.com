@@ -8,14 +8,18 @@ const labelStyle =
 
 export const Input = ({ label, name, ...props }) => (
   <div className="relative">
-    <label className={labelStyle}>{label}</label>
+    <label for={name} className={labelStyle}>
+      {label}
+    </label>
     <input className={baseStyle} name={name} id={name} {...props} />
   </div>
 )
 
 export const Textarea = ({ label, name, ...props }) => (
   <div className="relative">
-    <label className={labelStyle}>{label}</label>
+    <label for={name} className={labelStyle}>
+      {label}
+    </label>
     <textarea
       className={`${baseStyle} h-60 resize-none`}
       name={name}
