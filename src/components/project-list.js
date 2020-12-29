@@ -49,13 +49,13 @@ const ProjectList = ({
           <ProjectCards data={brandingData} />
         </Panel>
         <Panel>
+          <ProjectCards data={uxData} />
+        </Panel>
+        <Panel>
           <ProjectCards data={graphicDesignData} />
         </Panel>
         <Panel>
           <ProjectCards data={packingDesignData} />
-        </Panel>
-        <Panel>
-          <ProjectCards data={uxData} />
         </Panel>
       </div>
     </Tabs>
