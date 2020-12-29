@@ -4,11 +4,8 @@ description: Lorem
 email: ola@example.co
 siteUrl: https://example.com
 favicon: favicon.png
-social:
-  - label: Instagram
-    url: https://instagram.com/
-  - label: Behance
-    url: https://www.behance.net/
+behance: https://www.behance.net/
+instagram: https://instagram.com/
 tracking:
   which: 'none'
   id:

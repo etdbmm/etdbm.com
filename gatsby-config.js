@@ -27,6 +27,16 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-anchor-links`
+    `gatsby-plugin-anchor-links`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        htmlTitle: `${metadata.title}: CMS`,
+        htmlFavicon: favicon,
+        modulePath: `${__dirname}/src/cms`,
+        manualInit: true,
+        enableIdentityWidget: false
+      }
+    }
   ]
 }
