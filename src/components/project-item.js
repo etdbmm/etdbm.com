@@ -16,7 +16,7 @@ const Image = ({ alt, className, src }) =>
   )
 
 const ProjectItem = ({ children, client, date, image, text, title, work }) => (
-  <div className="container my-11 pt-12 space-y-6">
+  <div className="container my-11 pt-10 md:pt-20 space-y-6">
     <div className="grid gap-8 lg:grid-cols-2">
       <Image src={image} className="h-64 lg:h-auto" alt={title} />
       <div className="lg:px-8">

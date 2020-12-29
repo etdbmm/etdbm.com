@@ -54,7 +54,9 @@ const Header = ({ positive }) => {
             }`}
           >
             <li>
-              <AnchorLink to="/#projetos">projetos</AnchorLink>
+              <AnchorLink to="/#projetos" className="active">
+                projetos
+              </AnchorLink>
             </li>
             <li>
               <AnchorLink to="/#sobre">sobre</AnchorLink>

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import BackgroundImage from 'gatsby-background-image'
 
 const ProjectCard = ({ data }) => (
-  <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+  <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 pt-2 md:pt-8">
     {data.map(({ node }, i) => (
       <Link to={node.fields.slug} key={i}>
         <BackgroundImage
