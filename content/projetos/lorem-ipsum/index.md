@@ -1,12 +1,18 @@
 ---
 key: project-item
-title: Lorem ipsum 1
-date: 2020-01-02
-client: Lorem ipsum
-work: Lorem ipsum
-role: ux
-image: image1.png
-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at semper mauris, ac gravida odio. Curabitur non malesuada arcu, et egestas risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla ipsum leo, molestie sit amet consectetur vel, convallis et urna. Maecenas a diam nec ex ornare efficitur. Integer tincidunt sem id eros blandit egestas. Maecenas pellentesque felis ac interdum placerat. Mauris fringilla non tellus nec commodo. Phasellus fermentum, felis sed laoreet efficitur, ipsum lorem laoreet tellus, nec feugiat nisl nisi id felis.
+title: Suwei
+date: 2020-11-20
+client: Ana Liu
+work: designer
+role: branding
+image: image4.png
+text: "Suwei (素味) significa sabor vegetariano em chinês simplificado. Pensando
+  nisso criei uma marca que tivesse os atributos mais relevantes de uma boa
+  comida chinesa: leveza e tradição. O ícone da marca possui 2 elementos: um wan
+  (tigela) e tangchi (colher), o nome é apresentado transliterado e novamente em
+  pinyin. As ilustrações foram feitas como forma de apresentar o processo
+  simples de preparação que transforma os ingredientes, criando pratos
+  saborosos. "
 content:
   - image2.png
   - image3.png
