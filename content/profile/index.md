@@ -2,8 +2,8 @@
 key: profile
 title: Olá! Me chamo Etienne Todo Bom.
 subtitle: designer + UX
-text: Trabalho com design, branding, UI/UX design, social media, direção de arte e embalagens.
-image: profile.png
+text: Trabalho com design, branding, UI/UX design, direção de arte e embalagens.
+image: perfil.png
 tools:
   - label: Adobe
     image: adobe.png
