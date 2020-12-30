@@ -12,7 +12,7 @@ export default function useGraphicDesign() {
             role: { eq: "design gráfico" }
           }
         }
-        limit: 9
+        limit: 5
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {

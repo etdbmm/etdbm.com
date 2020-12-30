@@ -12,7 +12,7 @@ export default function usePackingDesign() {
             role: { eq: "embalagem" }
           }
         }
-        limit: 9
+        limit: 5
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {

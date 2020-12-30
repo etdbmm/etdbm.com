@@ -9,7 +9,7 @@ export default function useBranding() {
         filter: {
           frontmatter: { key: { eq: "project-item" }, role: { eq: "branding" } }
         }
-        limit: 9
+        limit: 5
         sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
