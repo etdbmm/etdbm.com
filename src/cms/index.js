@@ -13,7 +13,7 @@ init({
   config: {
     backend: {
       name: 'github',
-      repo: 'etdbmm/eti',
+      repo: 'etdbmm/etdbm.com',
       branch: 'main',
       commit_messages: {
         create: 'feat: create “{{slug}}”',
