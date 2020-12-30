@@ -1,13 +1,14 @@
 title: Etienne Todo Bom
 shortTitle: Etienne Bom
-description: Olá! Me chamo Etienne Todo Bom, trabalho com design, branding, UI/UX design, social media, direção de arte e embalagens.
+description: Olá! Me chamo Etienne Todo Bom, trabalho com design, branding,
+  UI/UX design, direção de arte e embalagens.
+behance: https://www.behance.net/etdbmdesign
+instagram: https://instagram.com/etdbmdesign
 siteUrl: https://etdbm.com
 favicon: favicon.png
-behance: https://www.behance.net/etiennetodobom
-instagram: https://instagram.com/
-tracking:
-  which: 'none'
-  id:
 colors:
-  background: '#fff'
-  highlight: '#fff'
+  background: "#0b0043"
+  highlight: "#ff9f9f"
+tracking:
+  which: analytics
+  id: G-P9SLX320CK
