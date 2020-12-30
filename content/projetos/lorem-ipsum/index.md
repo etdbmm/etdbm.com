@@ -1,6 +1,6 @@
 ---
 key: project-item
-title: Suwei
+title: SuWei
 date: 2020-11-20
 client: Ana Liu
 work: designer
