@@ -10,7 +10,7 @@ const Header = ({ positive }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <header
-      className={`absolute inset-0 bg-header-bg-mobile bg-top bg-no-repeat ${
+      className={`absolute inset-0 bg-header-bg-mobile bg-top bg-no-repeat overflow-hidden ${
         positive ? 'md:bg-none' : 'md:bg-header-bg'
       }`}
       data-sal="fade"
