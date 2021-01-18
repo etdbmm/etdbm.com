@@ -12,8 +12,8 @@ text: "Nilton Nadai é um médico ginecologista paraense, especialista em
 content:
   - 01.png
   - 03.png
-  - 02.png
   - 04.png
+  - 02.png
   - 05.png
   - 07.png
 ---
