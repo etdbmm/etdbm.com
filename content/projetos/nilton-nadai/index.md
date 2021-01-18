@@ -5,7 +5,7 @@ date: 2021-01-18
 client: Nilton Nadai
 work: Designer
 role: branding
-image: 01.png
+image: fundo.png
 text: "Nilton Nadai é um médico ginecologista paraense, especialista em
   cirurgias ginecológicas. O desafio era criar uma marca que tivesse dois
   conceitos: elegância e acolhimento."
