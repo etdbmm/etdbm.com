@@ -25,7 +25,7 @@ const Panel = ({ children }) => {
 const ProjectList = ({
   brandingData,
   graphicDesignData,
-  packingDesignData,
+  illustrationData,
   uxData
 }) => (
   <div className="container pt-16 md:pt-24" id="projetos">
@@ -41,7 +41,7 @@ const ProjectList = ({
         </div>
         <div className="flex flex-col md:flex-row justify-center md:justify-around space-y-2 md:space-y-0 md:w-full">
           <Tab>design gráfico</Tab>
-          <Tab>embalagens</Tab>
+          <Tab>ilustrações</Tab>
         </div>
       </div>
       <Panel>
@@ -54,7 +54,7 @@ const ProjectList = ({
         <ProjectCards data={graphicDesignData} />
       </Panel>
       <Panel>
-        <ProjectCards data={packingDesignData} />
+        <ProjectCards data={illustrationData} />
       </Panel>
     </Tabs>
   </div>

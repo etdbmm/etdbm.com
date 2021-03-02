@@ -7,7 +7,7 @@ import Profile from '../components/profile'
 
 import useBranding from '../hooks/use-branding'
 import useGraphicDesign from '../hooks/use-graphic-design'
-import usePackingDesign from '../hooks/use-packing-design'
+import useIllustration from '../hooks/use-illustration'
 import useUX from '../hooks/use-ux'
 import useProfile from '../hooks/use-profile'
 
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <ProjectList
       brandingData={useBranding()}
       graphicDesignData={useGraphicDesign()}
-      packingDesignData={usePackingDesign()}
+      illustrationData={useIllustration()}
       uxData={useUX()}
     />
     <Profile

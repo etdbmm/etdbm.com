@@ -9,7 +9,7 @@ export default function usePackingDesign() {
         filter: {
           frontmatter: {
             key: { eq: "project-item" }
-            role: { eq: "embalagem" }
+            role: { eq: "ilustração" }
           }
         }
         limit: 5

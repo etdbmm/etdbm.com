@@ -25,7 +25,7 @@ const Projects = {
       label: 'Categoria',
       name: 'role',
       widget: 'select',
-      options: ['branding', 'design gráfico', 'ux', 'embalagem']
+      options: ['branding', 'design gráfico', 'ux', 'ilustração']
     },
     { label: 'Imagem em destaque', name: 'image', widget: 'image' },
     { label: 'Descrição', name: 'text', widget: 'text' },
