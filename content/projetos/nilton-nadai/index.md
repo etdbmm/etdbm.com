@@ -1,7 +1,7 @@
 ---
 key: project-item
 title: Nilton Nadai
-date: 2021-01-18
+date: 2019-06-19
 client: Nilton Nadai
 work: Designer
 role: branding
