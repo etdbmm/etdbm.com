@@ -29,6 +29,15 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-umami`,
+      options: {
+        websiteId: '6caa930d-7bca-4f23-87f4-0ea7b3a7ca8b',
+        srcUrl: 'https://stats.marscollective.co/umami.js',
+        includeInDevelopment: false,
+        autoTrack: true
+      }
+    },
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-scroll-reveal`,
     {
