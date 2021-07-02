@@ -9,4 +9,6 @@ image: sgv.png
 text: "Identidade visual desenvolvida para o projeto de um plataforma de
   compartilhamento e mobilidade veicular inteligente dentro do Parque
   Tecnológico Itaipu. "
+content:
+  - sgv2.png
 ---
