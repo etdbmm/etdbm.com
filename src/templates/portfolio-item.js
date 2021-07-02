@@ -22,7 +22,7 @@ const ProjectItemTemplate = ({ data }) => {
         title={frontmatter.title}
         work={frontmatter.work}
       >
-        {frontmatter.content.map((item, i) => (
+        {frontmatter.content?.map((item, i) => (
           <Img fluid={item.childImageSharp.fluid} key={i} />
         ))}
       </ProjectItem>
